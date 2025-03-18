@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFlash - Stay Updated</title>
+    <link rel="stylesheet" href="_public/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">NewsFlash</a></h1>
+            </div>
+            <nav>
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                </ul>
+                <div class="search-container">
+                    <form action="#" method="get">
+                        <input type="text" placeholder="Search news..." name="search">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Breaking News</h2>
+                <p>Stay updated with the latest happenings around the world</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News Section -->
+    <section class="featured-news">
+        <div class="container">
+            <h2 class="section-title">Featured News</h2>
+            <div class="featured-grid">
+                <div class="featured-main">
+                    <article class="featured-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Featured news image">
+                            <span class="category politics">Politics</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="articles/article1.html">Major Policy Changes Announced in Parliament Session</a></h3>
+                            <p class="article-meta">By John Doe • March 19, 2025</p>
+                            <p>The latest parliamentary session brought significant policy changes that are expected to impact various sectors of the economy...</p>
+                            <a href="articles/article1.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="featured-secondary">
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Technology news image">
+                            <span class="category technology">Technology</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="articles/article2.html">New AI Breakthrough Changes How We Process Data</a></h3>
+                            <p class="article-meta">By Jane Smith • March 18, 2025</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Business news image">
+                            <span class="category business">Business</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="articles/article3.html">Global Markets React to New Economic Forecast</a></h3>
+                            <p class="article-meta">By Robert Johnson • March 17, 2025</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="latest-news">
+        <div class="container">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-grid">
+                <article class="card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Sports news image">
+                        <span class="category sports">Sports</span>
+                    </div>
+                    <div class="card-content">
+                        <h3><a href="#">National Team Wins International Tournament</a></h3>
+                        <p class="article-meta">By Michael Brown • March 19, 2025</p>
+                        <p>The national team secured a historic victory in the international tournament, bringing home the trophy after 12 years...</p>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1603190287605-e6ade32fa852?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Entertainment news image">
+                        <span class="category entertainment">Entertainment</span>
+                    </div>
+                    <div class="card-content">
+                        <h3><a href="#">Award-Winning Director Announces New Film Project</a></h3>
+                        <p class="article-meta">By Sarah Williams • March 18, 2025</p>
+                        <p>The acclaimed director revealed details about an upcoming film project that has already generated significant buzz in the industry...</p>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Technology news image">
+                        <span class="category technology">Technology</span>
+                    </div>
+                    <div class="card-content">
+                        <h3><a href="#">Revolutionary Smartphone Features Unveiled</a></h3>
+                        <p class="article-meta">By David Chen • March 17, 2025</p>
+                        <p>Leading tech companies have unveiled groundbreaking features for their upcoming smartphone models, setting new industry standards...</p>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Politics news image">
+                        <span class="category politics">Politics</span>
+                    </div>
+                    <div class="card-content">
+                        <h3><a href="#">International Summit Addresses Global Challenges</a></h3>
+                        <p class="article-meta">By Elizabeth Taylor • March 16, 2025</p>
+                        <p>World leaders gathered for a high-profile summit to discuss pressing global challenges and potential collaborative solutions...</p>
+                    </div>
+                </article>
+            </div>
+            <div class="load-more">
+                <button id="load-more-btn">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest news delivered to your inbox</p>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>About NewsFlash</h3>
+                    <p>NewsFlash is a leading news portal delivering the latest and most accurate news from around the world.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NewsFlash. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
